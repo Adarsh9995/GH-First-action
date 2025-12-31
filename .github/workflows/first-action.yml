@@ -7,5 +7,5 @@ jobs:
       - name: say-hello
         run: echo "hello,Adarsh!"
       - name: say-goobye
-        run: echo "goodbye,struggle" 
+        run: echo "goodbye,struggle!" 
   
