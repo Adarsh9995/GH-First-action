@@ -1,6 +1,6 @@
 name: Action by Adarsh
 on: workflow_dispatch
-Jobs:
+jobs:
   new-flow:
     runs-on: ubuntu-latest
     steps:
