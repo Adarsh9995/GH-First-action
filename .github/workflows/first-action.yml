@@ -1,11 +1,11 @@
-name: First Wokflow
-on: workflow_dispatch
-jobs:
-  first-job: 
-    runs-on: ubuntu-latest
-    steps:
-      - name: Print greeting
-        run: echo "Hello World!"
-      - name: Print goodbye
-        run: echo "done-bye!"
-        
+name: first-job-by-Adarsh
+on: workflow-dispatch
+jobs: 
+  first-job:
+  runs-on: ubuntu-latest
+  steps:
+    - name: say-hello
+      run: echo "hello,Adarsh!"
+    - name: say-goobye
+      run: echo "goodbye,struggle" 
+  
