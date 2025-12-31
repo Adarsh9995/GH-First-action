@@ -2,10 +2,10 @@ name: First job by Adarsh
 on: workflow_dispatch
 jobs: 
   first-job:
-  runs-on: ubuntu-latest
-  steps:
-    - name: say-hello
-      run: echo "hello,Adarsh!"
-    - name: say-goobye
-      run: echo "goodbye,struggle" 
+    runs-on: ubuntu-latest
+    steps:
+      - name: say-hello
+        run: echo "hello,Adarsh!"
+      - name: say-goobye
+        run: echo "goodbye,struggle" 
   
