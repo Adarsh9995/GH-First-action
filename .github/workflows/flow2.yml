@@ -1,0 +1,10 @@
+name: Action by Adarsh
+on: workflow_dispatch
+Jobs:
+  new-flow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: say hello
+        run: echo "Adarsh says hello!"
+      - name: say goodbye
+        run: echo "Adarsh says goodbye!"
