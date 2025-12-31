@@ -1,4 +1,4 @@
-name: first-job-by-Adarsh
+name: First job by Adarsh
 on: workflow_dispatch
 jobs: 
   first-job:
