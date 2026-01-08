@@ -1,0 +1,10 @@
+name: second workflow
+on: workflow_dispatch
+jobs:
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: multi line commands
+        run: |
+          echo "Hello world!"
+          echo "i am coming for you"
